@@ -5,7 +5,7 @@ class Footer extends React.Component {
     render(){
         return(
             <footer>
-                <span>The Best Counter App</span>
+                <span>The Best Vote Tracker App</span>
             </footer>
         )
     }

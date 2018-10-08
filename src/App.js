@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/header/header.js';
 import Footer from './components/footer/footer.js';
-import Counter from './components/counter/counter.js';
+import VoteTracker from './components/counter/counter.js';
 import './App.css';
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Header></Header>
-        <Counter></Counter>
+        <VoteTracker></VoteTracker>
         <Footer></Footer>
       </React.Fragment>
     );

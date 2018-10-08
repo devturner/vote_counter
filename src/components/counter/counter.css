@@ -33,3 +33,8 @@ h2.positive {
 h2.negative{
     color: red;
 }
+
+span.false {
+    display: none;
+    visibility: hidden;
+}
