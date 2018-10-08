@@ -46,6 +46,7 @@ class VoteTracker extends React.Component {
                 <h2>Down Votes: {this.state.down_vote_count}</h2>
                 <span className={this.state.vote_status} onClick={this.handleDown}>Down Vote</span>
                 <span className={this.state.vote_status} onClick={this.handleUp}>Up Vote</span>
+                <h2>Votes Remaining: {this.state.vote_limit}</h2>
             </main>
         )
     }
